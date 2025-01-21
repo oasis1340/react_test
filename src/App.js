@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Colors from './day01/state/Colors';
+// import Container from './day01/props/Container';
+// import Count from './day01/state/Count'
+import Name from './day01/state/Name';
+// import Sound from './day01/state/Sound';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     {/* <Container/> */}
+     <Colors/>
+    </>
   );
 }
 

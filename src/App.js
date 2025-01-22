@@ -1,15 +1,16 @@
 import './App.css';
-import Colors from './day01/state/Colors';
-// import Container from './day01/props/Container';
-// import Count from './day01/state/Count'
-import Name from './day01/state/Name';
-// import Sound from './day01/state/Sound';
+import CheckMessage from './day02/ref/expert/CheckMessage';
+// import Check from './day02/ref/basic/Check';
+// import FoodContainer from './day02/ref/expert/FoodContainer';
+// import NameRef from './day02/ref/basic/NameRef';
+// import Validation from './day02/ref/basic/Validation';
+
 
 function App() {
   return (
     <>
-     {/* <Container/> */}
-     <Colors/>
+     {/* <Check/> */}
+     <CheckMessage/>
     </>
   );
 }

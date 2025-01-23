@@ -1,16 +1,17 @@
 import './App.css';
-import CheckMessage from './day02/ref/expert/CheckMessage';
-// import Check from './day02/ref/basic/Check';
-// import FoodContainer from './day02/ref/expert/FoodContainer';
-// import NameRef from './day02/ref/basic/NameRef';
-// import Validation from './day02/ref/basic/Validation';
-
+// import SideEffect from './day03/life-cycle/function/side-effect/SideEffect';
+// import LifeCycleContainer from './day03/life-cycle/class/LifeCycleContainer';
+// import SideEffectMount from './day03/life-cycle/function/side-effect/SideEffectMount';
+import SideEffectTask01 from './day03/life-cycle/function/side-effect/SideEffectTask01';
+ 
 
 function App() {
   return (
     <>
      {/* <Check/> */}
-     <CheckMessage/>
+     {/* <LifeCycleContainer/> */}
+     {/* <SideEffectMount/> */}
+     <SideEffectTask01/>
     </>
   );
 }

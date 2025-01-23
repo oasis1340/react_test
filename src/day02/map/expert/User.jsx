@@ -4,9 +4,6 @@ const User = ({users}) => {
 
     const {name, phone, company, address} = users
 
-
-    // const {city} = city
-
     return (
         <div>
             <li>

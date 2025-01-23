@@ -10,7 +10,7 @@ const Check = () => {
         for (let i = 0; i < inputRef.current.length; i++) {
             let input = inputRef.current[i]
             if (input.checked) {
-                hobby += i === inputRef.current.length - 1 ? input.value : input.value + ", "              
+                hobby += i === inputRef.current.length ? input.value : input.value + ", "              
             }
         }
         setResult(hobby)

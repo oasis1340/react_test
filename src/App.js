@@ -1,17 +1,12 @@
 import './App.css';
-// import SideEffect from './day03/life-cycle/function/side-effect/SideEffect';
-// import LifeCycleContainer from './day03/life-cycle/class/LifeCycleContainer';
-// import SideEffectMount from './day03/life-cycle/function/side-effect/SideEffectMount';
-import SideEffectTask01 from './day03/life-cycle/function/side-effect/SideEffectTask01';
- 
+import AnimalsContainer from './day05/context/expert/AnimalsContainer';
+// import ParentContainer from './day05/context/basic/ParentContainer';
+// import NormalContainer from './day05/context/normal/NormalContainer';
 
 function App() {
   return (
     <>
-     {/* <Check/> */}
-     {/* <LifeCycleContainer/> */}
-     {/* <SideEffectMount/> */}
-     <SideEffectTask01/>
+     <AnimalsContainer />
     </>
   );
 }

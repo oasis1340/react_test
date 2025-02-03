@@ -244,8 +244,7 @@ const UserContainer = () => {
     return (
         <div>
             <ul>
-                {userList.map((users, i) => <User key={i} users = {users}/>)}
-                
+                {userList.map((users, i) => <User key={i} users = {users}/>)}               
             </ul>
         </div>
     );

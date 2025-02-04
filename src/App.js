@@ -1,13 +1,21 @@
+import { Route, RouterProvider, Routes } from 'react-router-dom';
 import './App.css';
-import AnimalsContainer from './day05/context/expert/AnimalsContainer';
-import FootballerContainer from './day05/context/test/FootballerContainer';
-// import ParentContainer from './day05/context/basic/ParentContainer';
-// import NormalContainer from './day05/context/normal/NormalContainer';
+import Main from './day06/router/Main';
+import Intro from './day06/router/Intro';
+import router from './day06/router/router';
+
+
 
 function App() {
   return (
     <>
-     <FootballerContainer/>
+     {/* <Routes>
+        <Route path='/' element={<Main/>} />
+        <Route path='/intro' element={<Intro />} >
+          <Route path=':title' element={<Intro />}></Route>
+        </Route>
+     </Routes> */}
+     <RouterProvider router={router} />
     </>
   );
 }
